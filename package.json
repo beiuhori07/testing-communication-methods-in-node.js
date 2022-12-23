@@ -1,0 +1,21 @@
+{
+  "name": "node-kafka-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node producer/prod.js",
+    "start:consumer": "node consumer/cons.js",
+    "start:consumer2": "node consumer/cons2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.6.2",
+    "axios": "^1.1.3",
+    "express": "^4.18.2",
+    "node-rdkafka": "^2.10.1",
+    "prompt-sync": "^4.2.0",
+    "socket.io": "^2.3.0"
+  }
+}
